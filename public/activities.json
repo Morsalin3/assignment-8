@@ -23,22 +23,15 @@
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b89",
     "description": "Men's Sneaker",
-    "name": "Lanch",
+    "name": "Coding Time",
     "img": "https://i.postimg.cc/gkzHqW9Z/kevin-ku-aiy-Bwbr-WWlo-unsplash.jpg",
     "time":30
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b90",
     "description": "Men's Sneaker",
-    "name": "Dumble",
+    "name": "Lanch",
     "img": "https://i.postimg.cc/yxBkKshX/istockphoto-1397610406-1024x1024.jpg",
-    "time":30
-  },
-  {
-    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b91",
-    "description": "Men's Sneaker",
-    "name": "Holy Day",
-    "img": "https://i.postimg.cc/dVxMc6R5/risen-wang-20j-X9b35r-M-unsplash.jpg",
     "time":30
   },
   {
