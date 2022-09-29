@@ -1,0 +1,18 @@
+
+.activities{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.activities-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.activities-img img{
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+}
+.btn-add:hover{
+    background-color: cyan;
+}

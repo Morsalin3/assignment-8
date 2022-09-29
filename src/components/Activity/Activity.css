@@ -1,0 +1,23 @@
+
+.activity-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+.activity{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.activity-info{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    
+    /* justify-content: center; */
+}
+.select{
+    width: 300px;
+}

@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: left;
+
+}
+.header img{
+    width: 40px;
+    color: blue;
+}
+.title{
+    /* display: block; */
+}
