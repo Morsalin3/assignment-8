@@ -21,3 +21,32 @@
 .select{
     width: 300px;
 }
+
+
+/* responsive for small devices */
+
+@media only screen and (max-width: 910px) {
+    .activity{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+  }
+  
+@media only screen and (max-width: 725px) {
+    .activity-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .activity-info{
+        display: flex;
+        position: relative;
+        margin: 0 auto;
+    }
+    .activity{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  

@@ -40,6 +40,18 @@
 .break-btn:hover{
     background-color: cyan;
 }
+.activity-cmp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: skyblue;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+} 
+
 /* .break{
     display: flex;
     align-items: center;

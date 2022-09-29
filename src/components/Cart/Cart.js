@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css'
 import logo from '../../images/pic.jpg';
 
@@ -8,6 +8,7 @@ const Cart = ({cart}) => {
     for(const activity of cart){
         total = total + activity.time;
     }
+
     return (
         <div>
             <div className='personal-info'>
@@ -19,23 +20,25 @@ const Cart = ({cart}) => {
             <div className='break-time mt-5'>
                 <h4>Break Time</h4>
                 <div className=''>
-                    <button className='break-btn'>10s</button>
-                    <button className='break-btn'>20s</button>
-                    <button className='break-btn'>30s</button>
-                    <button className='break-btn'>40s</button>
+                    <button id='break-time' className='break-btn'>20m</button>
+                    <button id='break-time' className='break-btn'>10m</button>
+                    <button id='break-time' className='break-btn'>30m</button>
+                    <button id='break-time' className='break-btn'>40m</button>
                 </div>
             </div>
             <div className='excercise-details pt-4'>
                 <h5 className='pb-4'>Dauly Routine Details</h5>
                 <div className='routine'>
-                    <h6>Routine Time</h6>
-                    <p className='m-0'>00</p>
+                <h6>Routine Time</h6>
+                <p className='m-0'>{total}m</p>
                 </div>           
             </div>
             <div className='break mt-3'>
                 <h6>Break Time</h6>
-                <p className='m-0'>{total}s</p>
+                    <p className='m-0'>0m</p>
             </div>
+
+            <button className='activity-cmp mt-3'>Activity Completed</button>
         </div>
     );
 };

@@ -12,7 +12,7 @@ const Activities = ({activity,handleAddToSecond}) => {
             <div className='p-3 pt-2'>
                 <h4 className=''>{name}</h4>
                 <p>{description}</p>
-                <h6>Time required:{time}s</h6>
+                <h6>Time required:{time}M</h6>
 
                 <button onClick={()=>handleAddToSecond(activity)} className='btn-add border-0 rounded rouded-2 w-100 p-2'>Add to list</button>
             </div>
